@@ -24,7 +24,7 @@ variable "image_name" {
 variable "image_tag" {
   description = "Tag for the built Docker image"
   type        = string
-  default     = "v1"
+  default     = "v2"
 }
 
 variable "host_port" {
