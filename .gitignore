@@ -2,10 +2,6 @@
 .terraform/
 .terraform.lock.hcl
 
-# State files
-*.tfstate
-*.tfstate.*
-
 # Crash logs
 crash.log
 
@@ -24,3 +20,11 @@ override.tf.json
 
 # Ignore backup files
 *.backup
+
+# Terraform state and cache files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
