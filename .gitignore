@@ -22,9 +22,8 @@ override.tf.json
 *.backup
 
 # Terraform state and cache files
+terraform.tfstate
+terraform.tfstate.backup
 *.tfstate
 *.tfstate.*
-.terraform/
-.terraform.lock.hcl
-crash.log
 
